@@ -16,34 +16,66 @@
           <input id="firstName" />
         </p>
         <p>
-            <label for="lastName">Nazwisko:</label>
-            <input id="lastName" />
+          <label for="lastName">Nazwisko:</label>
+          <input id="lastName" />
+        </p>
+        <fieldset>
+          <legend>Adres:</legend>
+          <p>
+            <label for="street">Ulica i nr domu:</label>
+            <input id="street" />
           </p>
-          <fieldset>
-              <legend>Adres:</legend>
-              <p>
-                  <label for="street">Ulica i nr domu:</label>
-                  <input id="street">
-              </p>
-              <p>
-                <label for="code">Kod pocztowy:</label>
-                <input id="code">
-            </p>
+          <p>
+            <label for="code">Kod pocztowy:</label>
+            <input id="code" />
+          </p>
+          <p>
+            <label for="city">Miasto:</label>
+            <input id="city" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Dane kontaktowe:</legend>
+          <p>
+            <label for="phoneNumber">Numer telefonu:</label>
+            <input
+              id="phoneNumber"
+              type="tel"
+              placeholder="Wpisz swój numer telefonu"
+            />
+          </p>
+          <p>
+            <label for="email">E-mail:</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Wpisz swój adres e-mail"
+            />
+          </p>
+        </fieldset>
+        <p>
+          <label for="reason">Napisz dlaczego chcesz z nami pracować</label>
+          <textarea id="reason" name="reason" class="reason"> </textarea>
+        </p>
+        
+        <p>
+            <label for="cv">Załącz swoje CV</label><br>
+            <input id="cv" type="file">
+        </p>
+        <p>
+            <label for="english">Określ swój poziom jezyka angielskiego</label><br>
+            <input id="english" type="range" min="0" max="100" step="20">
+        </p>
+        <p>
+            <legend>Czy posiadasz prawo jazdy kategorii B</legend>
             <p>
-                <label for="city">Miasto:</label>
-                <input id="city">
-            </p>
-          </fieldset>
-          <fieldset>
-            <legend>Dane kontaktowe:</legend>
-            <p>
-                <label for="phoneNumber">Numer telefonu:</label>
-                <input id="phoneNumber" type= "tel" placeholder="Wpisz swój numer telefonu">
-            </p>
-            <p>
-                <label for="email">E-mail:</label>
-                <input id="email" type= "email" placeholder="Wpisz swój adres e-mail">
-            </p>
+            <label><input name="drivingLicence" type="radio"> tak</label>
+           </p>
+           <p>
+            <label><input name="drivingLicence" type="radio"> nie</label>
+           </p>
+        </p>
+    
       </form>
     </main>
   </body>

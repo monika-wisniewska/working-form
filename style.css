@@ -14,3 +14,9 @@ html {
       justify-content: center;
       min-height: 100vh;
   }
+  .reason {
+      display: block;
+      min-width: 350px;
+      min-height: 150px;
+  }
+  
