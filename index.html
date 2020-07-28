@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularz</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>Formularz kandydata</h1>
+      <form>
+        <p>
+          <label for="firstName">Imię:</label>
+          <input id="firstName" />
+        </p>
+        <p>
+            <label for="lastName">Nazwisko:</label>
+            <input id="lastName" />
+          </p>
+          <fieldset>
+              <legend>Adres:</legend>
+              <p>
+                  <label for="street">Ulica i nr domu:</label>
+                  <input id="street">
+              </p>
+              <p>
+                <label for="code">Kod pocztowy:</label>
+                <input id="code">
+            </p>
+            <p>
+                <label for="city">Miasto:</label>
+                <input id="city">
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Dane kontaktowe:</legend>
+            <p>
+                <label for="phoneNumber">Numer telefonu:</label>
+                <input id="phoneNumber" type= "tel" placeholder="Wpisz swój numer telefonu">
+            </p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input id="email" type= "email" placeholder="Wpisz swój adres e-mail">
+            </p>
+      </form>
+    </main>
+  </body>
+</html>
