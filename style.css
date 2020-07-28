@@ -1,22 +1,25 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-  body {
-      background: #5706ee;
-      color: #fff;
-      display: flex; 
-      justify-content: center;
-      min-height: 100vh;
-  }
-  .reason {
-      display: block;
-      min-width: 350px;
-      min-height: 150px;
-  }
-  
+body {
+  background: #5706ee;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1 {
+  color: #660772;
+}
+.reason {
+  display: block;
+  min-width: 350px;
+  min-height: 150px;
+  background: #cccbcf;
+}
